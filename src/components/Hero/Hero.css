@@ -1,0 +1,46 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(89 100 89);
+}
+
+.hero-header {
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.bottomImageHero {
+  width: 115%;
+  height: auto;
+  bottom: 55%;
+  position: relative;
+}
+
+.topImageHero {
+  width: 113%;
+  height: auto;
+  top: -16%;
+  position: absolute;
+  transform: rotate(180deg) !important;
+}
+
+.heroCursive {
+  font-family: cursiveFont ;
+  font-size: 13rem;
+  font-weight: 100;
+  color: #be9638;
+  z-index: 100;
+}
+
+
+
+@font-face {
+  font-family: cursiveFont;
+  src: url("../../assets/font/heartbroke-font/Heartbroke-WylGE.ttf")
+}
